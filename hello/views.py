@@ -16,5 +16,5 @@ currTime = datetime.now(timeZone)
 
 
 def index(request):
-    return HttpResponse("Hello World "+ "</br>" + "The date is: " + currDate.strftime('%b %d, %Y')
+    return HttpResponse("Hello World!! "+ "</br>" + "The date is: " + currDate.strftime('%b %d, %Y')
     + ", The time is: " + currTime.strftime('%I:%M %p') + "</br>")
