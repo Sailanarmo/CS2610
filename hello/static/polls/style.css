@@ -1,0 +1,41 @@
+li a {
+    color: red;
+}
+
+.homePage{
+    color: white;
+}
+
+.results {
+    color: white;
+
+}
+
+ul {
+    color: white;
+}
+
+body#home {
+    background-color: black;
+    background-image: url('images/dog.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+
+body#rs {
+    background-color: black;
+    background-image: url('images/Wat8.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    
+}
+
+body#det{
+    
+    background-image: url('images/vote.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
